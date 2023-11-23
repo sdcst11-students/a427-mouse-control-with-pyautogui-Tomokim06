@@ -1,0 +1,25 @@
+import pyautogui
+
+startPos = pyautogui.locateCenterOnScreen('assets\red.png',confidence=0.85)
+print(startPos)
+pyautogui.moveTo(startPos)
+
+input()
+
+#pyautogui.moveTo(237, 28, 36,)
+pyautogui.moveTo(992, 140, .2)
+pyautogui.moveTo(992, 290, .5)
+pyautogui.moveTo(1023, 290, .2)
+pyautogui.moveTo(1023, 183, .5)
+pyautogui.moveTo(1051, 183, .5)
+pyautogui.moveTo(1051, 270, .5)
+pyautogui.moveTo(1136, 270, .5)
+pyautogui.moveTo(1136, 328, .5)
+pyautogui.moveTo(1086, 328, .5)
+pyautogui.moveTo(1086, 382, .5)
+pyautogui.moveTo(1200, 382, .5)
+pyautogui.moveTo(1200, 180, .7)
+pyautogui.moveTo(1292, 180, .5)
+pyautogui.moveTo(1292, 352, .7)
+pyautogui.moveTo(1315, 352, .2)
+pyautogui.moveTo(1315, 450, .5)
